@@ -1,0 +1,27 @@
+/*default style*/
+
+#header{
+	
+	margin-left: 100px;
+	margin-right: 100px
+
+}
+
+#logo_wrapper{
+	float: left;
+	margin-right: 50px;
+
+	
+}
+
+#navigation_links{
+	height: 49px;
+	padding-top: 30px
+
+}
+
+#main_content{
+	border: 2px solid lightgray;
+	margin-left: 100px;
+	margin-right: 100px
+}

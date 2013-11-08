@@ -1,13 +1,17 @@
 /*default style*/
 
+/*start of the css in the header area*/
+
 #header{
-	
+	height: 56px;
 	margin-left: 100px;
-	margin-right: 100px
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px
 
 }
 
-#logo_wrapper{
+#logo_header{
 	float: left;
 	margin-right: 50px;
 
@@ -15,13 +19,41 @@
 }
 
 #navigation_links{
-	height: 49px;
-	padding-top: 30px
+	
+	padding-top: 19px
 
 }
+/*end of the css in the header area*/
 
+/*start of the css in the main content area*/
+
+#logo_main{
+	background-color: #e6e6e6;
+	min-height: 160px;
+	margin-right: 764px;
+	text-align: center;
+	padding-top: 41px;
+	padding-bottom: 0px
+}
+
+#about_me{
+
+}
 #main_content{
-	border: 2px solid lightgray;
+	border: 2px solid #e6e6e6;
 	margin-left: 100px;
 	margin-right: 100px
 }
+
+#project_list1{
+	background-color: #61b1f2
+}
+
+#project_list2{
+	background-color: #fc5e5e
+}
+
+#project_list3{
+	background-color: #666666
+}
+

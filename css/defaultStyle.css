@@ -23,6 +23,10 @@
 	padding-top: 19px
 
 }
+
+a{
+	text-decoration: none;
+}
 /*end of the css in the header area*/
 
 /*start of the css in the main content area*/
@@ -47,8 +51,17 @@
 	margin-right: 30px
 }
 
+.projects{
+	list-style: none;
+	padding: 0px;
+}
+
+li{
+	max-width: 33.33%;
+}
 #project_list1{
 	background-color: #61b1f2
+
 }
 
 #project_list2{

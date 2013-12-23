@@ -29,11 +29,12 @@
 
 #logo_main{
 	background-color: #e6e6e6;
-	min-height: 160px;
-	margin-right: 764px;
+	min-height: 124px;
+	float: left;
+	min-width: 33.33%;
 	text-align: center;
-	padding-top: 41px;
-	padding-bottom: 0px
+	padding-top: 20px;
+	padding-bottom: 20px
 }
 
 #about_me{

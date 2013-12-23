@@ -38,8 +38,9 @@
 }
 
 #about_me{
-
-}
+	padding-left: 35%;
+	min-height: 129px;
+}	
 #main_content{
 	border: 2px solid #e6e6e6;
 	margin-left: 100px;

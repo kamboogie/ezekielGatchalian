@@ -151,20 +151,20 @@ li{
 	margin-right: 0px;
 
 }
-#project_list1{
+.project_list1{
 	background-color: #61b1f2;
 	float: left;
 	margin-right: 1px;
 
 }
 
-#project_list2{
+.project_list2{
 	background-color: #fc5e5e;
 	float: left;
 	margin-right: 1px;
 }
 
-#project_list3{
+.project_list3{
 	background-color: #666666;
 	float: left;
 }

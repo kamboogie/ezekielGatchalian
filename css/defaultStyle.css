@@ -1,10 +1,13 @@
+
 /*default style*/
 html{
-	font-size: 16px;
+	font-size: 1em; /* 1em = 16px*/
 }
+
 body{
 	font-family: helvetica, arial, sans-serif;
-	font-size: 100%; /* 1em = 16px*/
+	font-size: 1em; 
+	
 }
 
 p{
@@ -14,14 +17,43 @@ p{
 }
 
 h3{
+	font-size: 1.1875em;
 	padding-left: 30px;
 	padding-right: 10px;
+
 }
 
 ul{
 	font-size: 1.1875em;
+	list-style: none;
 }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+#page_wrapper{
+	width: 980px;
+	margin: auto;
+}
+
 /*start of the css in the header area*/
+
+#logo_header_link{
+	text-decoration: none;
+}
+
+
 
 #header{
 	height: 56px;
@@ -48,12 +80,9 @@ ul{
 
 #navigation_links{
 	
-	padding-top: 19px
+	padding-top: 19px;
 
-}
 
-a{
-	text-decoration: none;
 }
 /*end of the css in the header area*/
 

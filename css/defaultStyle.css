@@ -6,7 +6,6 @@ html{
 body{
 	font-family: helvetica, arial, sans-serif;
 	font-size: 1em; /* 1em = 16px*/
-	
 }
 
 ul{
@@ -37,6 +36,7 @@ img{
 #page_wrapper{
 	width: 75%; /*Holding outermost DIV (will have 1013px main_content div) */
 	margin: auto;
+	vertical-align: middle;
 }
 
 /*start of the css in the header area*/
@@ -47,20 +47,15 @@ img.image_header{
 }
 
 #header{
-
 	margin-top: 30px;
-
 }
 .logo_header{
 	float: left;
 	display: inline-block;
-
 }
 
 #navigation_links{
 	padding-top: 4px;
-
-
 }
 
 #navigation_links ul li{
@@ -71,7 +66,6 @@ img.image_header{
 
 #navigation_links ul li a{
 	text-decoration: none;
-
 }
 
 /*end of the css in the header area*/
@@ -98,22 +92,20 @@ img.image_header{
 	float: left;
 	width: 66.633761%; /* 675 divided by 1013 */
 }
+
 .about_me p{
 	padding-left: 4.451038%; /* 30 divided by 674 */
 	padding-right: 4.451038%; /* 30 divided by 674 */
-
 }
 
 .projects{
 	color: #FFFFFF;
-
 }
 
 .projects h3{
 	font-size: 1.1875em; /* 19 divided by 16 (1em = 16px) */
 	padding-left: 8.928571%; /* 30 divided by 336*/
 	padding-right: 8.928571%; /* 30 divided by 336*/
-
 }
 
 .projects p{
@@ -124,13 +116,11 @@ img.image_header{
 li.lists{
 	width: 33.267522%; /* 337 divided by 1013 */
 	min-height: 208px;
-	
 }
 
 .project_list1{
 	background-color: #61b1f2;
 	float: left;
-	
 }
 
 .project_list2{
@@ -151,6 +141,7 @@ li.lists{
 #footer{
 	border: 0.0625em solid #e6e6e6; /* 1 divided by 16 (1em = 16px)*/
 	margin-top: 10px;
-
+	padding-left: 2.961500%;
 }
+
 /*end of the css in the footer area*/

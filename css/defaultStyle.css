@@ -16,7 +16,7 @@ ul{
 img{
 	max-width: 100%;
 	height: auto;
-	width: auto\9; /* ie8*/
+	width: auto;
 }
 
 .clearfix:before,
@@ -28,15 +28,13 @@ img{
 .clearfix:after {
   clear: both;
 }
- 
-.clearfix {
-  zoom: 1; /* ie 6/7 */
-}
 
 #page_wrapper{
 	width: 75%; /*Holding outermost DIV (will have 1013px main_content div) */
 	margin: auto;
 	vertical-align: middle;
+	min-width: 18.125em; /* 290px divided by 16px (1em = 16px) */
+	max-width: 1013px;
 }
 
 /*start of the css in the header area*/
@@ -85,12 +83,14 @@ img.image_header{
 	padding-top: 50px; 
 	margin-right: 0.0987166%; /* 1 divided by 1013 */
 	width: 33.267522%; /* 335 divided by 1010 */
+	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
 }
 
 .about_me{
 	min-height: 208px;
 	float: left;
 	width: 66.633761%; /* 675 divided by 1013 */
+	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
 }
 
 .about_me p{
@@ -100,6 +100,7 @@ img.image_header{
 
 .projects{
 	color: #FFFFFF;
+
 }
 
 .projects h3{
@@ -116,6 +117,7 @@ img.image_header{
 li.lists{
 	width: 33.267522%; /* 337 divided by 1013 */
 	min-height: 208px;
+	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
 }
 
 .project_list1{

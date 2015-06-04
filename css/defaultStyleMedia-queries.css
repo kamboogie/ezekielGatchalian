@@ -1,0 +1,84 @@
+/* CSS with media-queries */
+
+@media screen and (max-width: 480px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	.logo_main{
+		width: 100%;
+	}
+
+	.about_me{
+		width: 100%;
+	}
+
+	li.lists{
+		width: 100%;
+	}
+
+	
+}
+
+@media screen and (min-width:481px) and (max-width: 650px) {
+
+	.logo_main{
+		width: 100%;
+	}
+
+	.about_me{
+		width: 100%;
+	}
+
+	li.lists{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (min-width:651px) and (max-width:980px){
+
+	.logo_main{
+		width: 100%;
+	}
+
+	.about_me{
+		width: 100%;
+	}
+
+	li.lists{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (min-width:981px) and (max-width:1280px){
+
+	.logo_main{
+		margin-right: 0.138169%; /* 1 divided by 723.75 */
+		width: 33.333333%; /* 241.25 divided by 723.75 */
+		
+	}
+
+	.about_me{
+		width: 66.528497%; /* 481.5 divided by 723.75 */
+	}
+
+	li.lists{
+		width: 33.195164%; /* 240.25 divided by 723.75 */
+	}
+
+	.project_list2{
+	margin-right: 0.138169%; /*1 divided by 723.75 */
+	margin-left: 0.138169%; /*1 divided by 723.75 */
+	}
+	
+}
+
+@media screen and (min-width:1281px) and (max-width:1336px){
+	
+}
+
+@media screen and (min-width:1336px){
+	
+}

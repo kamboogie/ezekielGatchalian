@@ -82,15 +82,13 @@ img.image_header{
 	text-align: center;
 	padding-top: 50px; 
 	margin-right: 0.0987166%; /* 1 divided by 1013 */
-	width: 33.267522%; /* 335 divided by 1010 */
-	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
+	width: 33.267522%; /* 337 divided by 1013 */
 }
 
 .about_me{
 	min-height: 208px;
 	float: left;
 	width: 66.633761%; /* 675 divided by 1013 */
-	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
 }
 
 .about_me p{
@@ -117,7 +115,6 @@ img.image_header{
 li.lists{
 	width: 33.267522%; /* 337 divided by 1013 */
 	min-height: 208px;
-	min-width: 18em; /* 288px divided by 16px (1em = 16px) */
 }
 
 .project_list1{
@@ -143,7 +140,7 @@ li.lists{
 #footer{
 	border: 0.0625em solid #e6e6e6; /* 1 divided by 16 (1em = 16px)*/
 	margin-top: 10px;
-	padding-left: 2.961500%;
+	padding-left: 2.961500%; /* 30 divided by 1013 */
 }
 
 /*end of the css in the footer area*/

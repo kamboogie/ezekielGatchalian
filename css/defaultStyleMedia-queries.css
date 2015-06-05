@@ -56,11 +56,13 @@
 
 	.logo_main{
 		margin-right: 0.138169%; /* 1 divided by 723.75 */
+		height: 194px; /* 244 -50 */
 		width: 33.333333%; /* 241.25 divided by 723.75 */
 		
 	}
 
 	.about_me{
+		height: 244px;
 		width: 66.528497%; /* 481.5 divided by 723.75 */
 	}
 
@@ -72,13 +74,5 @@
 	margin-right: 0.138169%; /*1 divided by 723.75 */
 	margin-left: 0.138169%; /*1 divided by 723.75 */
 	}
-	
-}
-
-@media screen and (min-width:1281px) and (max-width:1336px){
-	
-}
-
-@media screen and (min-width:1336px){
 	
 }

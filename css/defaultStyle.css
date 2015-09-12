@@ -1,11 +1,11 @@
 /*default style*/
 html{
-	font-size: 1em; /* 1em = 16px*/
+	font-size: 0.875em; /* 14px divided by 16px (1em = 16px) */
 }
 
 body{
 	font-family: helvetica, arial, sans-serif;
-	font-size: 1em; /* 1em = 16px*/
+	font-size: 0.875em; /* 14px divided by 16px (1em = 16px) */
 }
 
 ul{
@@ -30,7 +30,7 @@ img{
 }
 
 #page_wrapper{
-	width: 75%; /*Holding outermost DIV (will have 1013px main_content div) */
+	width: 75%; /* Holding outermost DIV (will have 1013px main_content div) */
 	margin: auto;
 	vertical-align: middle;
 	min-width: 18.125em; /* 290px divided by 16px (1em = 16px) */
@@ -71,12 +71,12 @@ img.image_header{
 /*start of the css in the main content area*/
 
 .main_content{
-	border: 0.0625em solid #e6e6e6; /* 1 divided by 16 (1em = 16px)*/
+	/*border: 0.0625em solid #e6e6e6; /* 1 divided by 16 (1em = 16px)*/
 	margin-top: 50px;
 }
 
 .logo_main{
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	min-height: 158px; /* 208 - 50 */ 
 	float: left;
 	text-align: center;
@@ -102,7 +102,7 @@ img.image_header{
 }
 
 .projects h3{
-	font-size: 1.1875em; /* 19 divided by 16 (1em = 16px) */
+	font-size: .875em; /* 14 divided by 16 (1em = 16px) */
 	padding-left: 8.928571%; /* 30 divided by 336*/
 	padding-right: 8.928571%; /* 30 divided by 336*/
 }
@@ -110,6 +110,10 @@ img.image_header{
 .projects p{
 	padding-left: 8.928571%; /* 30 divided by 336*/
 	padding-right: 8.928571%; /* 30 divided by 336*/
+}
+
+.project_description{
+	font-size: .750em; /* 12 divided by 16 (1em = 16px) */
 }
 
 li.lists{
@@ -138,9 +142,13 @@ li.lists{
 
 /*start of the css in footer area*/
 #footer{
+	font-size: .688em; /* 11 divided by 16 (1em = 16px) */
+	text-align: right;
+	color:  #666666;
 	border: 0.0625em solid #e6e6e6; /* 1 divided by 16 (1em = 16px)*/
 	margin-top: 10px;
-	padding-left: 2.961500%; /* 30 divided by 1013 */
+	padding-top: 2.961500%; /* 30 divided by 1013 */
+	/*padding-left: 2.961500%; /* 30 divided by 1013 */
 }
 
 /*end of the css in the footer area*/

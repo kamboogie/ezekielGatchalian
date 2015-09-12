@@ -57,6 +57,7 @@ img.image_header{
 }
 
 #navigation_links ul li{
+	float: right;
 	display: inline-block;
 	padding-left: 1.068376%; /* 10 divided by 936 (1013-77=936) */
 	padding-right: 1.068376%; /* 10 divided by 936 (1013-77=936) */
@@ -117,7 +118,7 @@ img.image_header{
 }
 
 li.lists{
-	width: 33.267522%; /* 337 divided by 1013 */
+	width: 32.280355%; /* 337 327 divided by 1013 */
 	min-height: 208px;
 }
 
@@ -129,8 +130,10 @@ li.lists{
 .project_list2{
 	background-color: #fc5e5e;
 	float: left;
-	margin-right: 0.098716%; /*1 divided by 1013*/
-	margin-left: 0.098716%; /*1 divided by 1013*/
+	margin-right: 1.579467%; /*1 divided by 1013*/
+	margin-left: 1.579467%; /*1 divided by 1013*/
+	/*margin-right: 0.098716%; /*1 divided by 1013*/
+	/*margin-left: 0.098716%; /*1 divided by 1013*/
 }
 
 .project_list3{

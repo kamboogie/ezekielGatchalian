@@ -49,30 +49,22 @@
 	li.lists{
 		width: 100%;
 	}
+
+	.project_list2{
+	background-color: #fc5e5e;
+	float: left;
+	margin-right: 0%; /*1 divided by 1013*/
+	margin-left: 0%; /*1 divided by 1013*/
+	/*margin-right: 0.098716%; /*1 divided by 1013*/
+	/*margin-left: 0.098716%; /*1 divided by 1013*/
+}
 	
 }
 
-@media screen and (min-width:981px) and (max-width:1280px){
+@media screen and (min-width:981px) {
 
-	.logo_main{
-		margin-right: 0.138169%; /* 1 divided by 723.75 */
-		height: 194px; /* 244 -50 */
-		width: 33.333333%; /* 241.25 divided by 723.75 */
-		
+	#header{
+		display: none;
 	}
 
-	.about_me{
-		height: 244px;
-		width: 66.528497%; /* 481.5 divided by 723.75 */
-	}
-
-	li.lists{
-		width: 33.195164%; /* 240.25 divided by 723.75 */
-	}
-
-	.project_list2{
-	margin-right: 0.138169%; /*1 divided by 723.75 */
-	margin-left: 0.138169%; /*1 divided by 723.75 */
-	}
-	
 }

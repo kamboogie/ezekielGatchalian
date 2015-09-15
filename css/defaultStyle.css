@@ -19,6 +19,22 @@ img{
 	width: auto;
 }
 
+a:link {
+    color: #666666; /* color for unvisited link */
+}
+
+a:visited {
+    color: #fc5e5e; /* color for visited link */
+}
+
+a:hover {
+    color: #666666; /* color for mouse over link */
+}
+
+a:active {
+    color: #666666; /* color for selected link */
+}
+
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -47,6 +63,7 @@ img.image_header{
 #header{
 	margin-top: 30px;
 }
+
 .logo_header{
 	float: left;
 	display: inline-block;

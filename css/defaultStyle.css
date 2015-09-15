@@ -53,7 +53,7 @@ img.image_header{
 }
 
 #navigation_links{
-	padding-top: 4px;
+	padding-top: 23px; /* 77px - 54px */
 }
 
 #navigation_links ul li{
@@ -76,25 +76,37 @@ img.image_header{
 	margin-top: 50px;
 }
 
+.ezekielGatchalian{
+	color: #666666;
+	font-size: 1.50em; /* 11 divided by 16 (1em = 16px) */
+}
+
 .logo_main{
 	/*background-color: #e6e6e6;*/
 	min-height: 158px; /* 208 - 50 */ 
 	float: left;
 	text-align: left;
-	padding-top: 50px; 
-	margin-right: 0.0987166%; /* 1 divided by 1013 */
-	width: 33.267522%; /* 337 divided by 1013 */
+	padding-top: 20px; 
+	padding-left: 2.961500%; /* 30 divided by 1013 */
+	width: 19.743336%; /* 337 divided by 1013 */
 }
 
 .about_me{
-	min-height: 208px;
+	min-height: 178px; /* 178 - 25 */
 	float: left;
-	width: 66.633761%; /* 675 divided by 1013 */
+	padding-top: 25px; 
+	width: 77.295162%; /* 783 divided by 1013 */
 }
 
 .about_me p{
-	padding-left: 4.451038%; /* 30 divided by 674 */
-	padding-right: 4.451038%; /* 30 divided by 674 */
+	/*padding-left: 4.451038%; /* 30 divided by 674 */
+	/*padding-right: 4.451038%; /* 30 divided by 674 */
+}
+
+.projects_label{
+	color: #666666;
+	font-size: 1.50em; /* 11 divided by 16 (1em = 16px) */
+
 }
 
 .projects{

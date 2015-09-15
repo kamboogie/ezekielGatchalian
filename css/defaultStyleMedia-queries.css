@@ -6,16 +6,29 @@
 	}
 
 	.logo_main{
-		width: 100%;
+		display: none;
+	}
+
+	.ezekielGatchalian{
+		padding-top: 20px;
 	}
 
 	.about_me{
+		padding-top: 0px;
 		width: 100%;
 	}
 
 	li.lists{
 		width: 100%;
 	}
+
+	.project_list2{
+	background-color: #fc5e5e;
+	float: left;
+	margin-right: 0%; /*1 divided by 1013*/
+	margin-left: 0%; /*1 divided by 1013*/
+	/*margin-right: 0.098716%; /*1 divided by 1013*/
+	/*margin-left: 0.098716%; /*1 divided by 1013*/
 
 	
 }
@@ -23,26 +36,44 @@
 @media screen and (min-width:481px) and (max-width: 650px) {
 
 	.logo_main{
-		width: 100%;
+		display: none;
+	}
+
+	.ezekielGatchalian{
+		padding-top: 20px;
 	}
 
 	.about_me{
+		padding-top: 0px;
 		width: 100%;
 	}
 
 	li.lists{
 		width: 100%;
 	}
+
+	.project_list2{
+	background-color: #fc5e5e;
+	float: left;
+	margin-right: 0%; /*1 divided by 1013*/
+	margin-left: 0%; /*1 divided by 1013*/
+	/*margin-right: 0.098716%; /*1 divided by 1013*/
+	/*margin-left: 0.098716%; /*1 divided by 1013*/
 	
 }
 
 @media screen and (min-width:651px) and (max-width:980px){
 
 	.logo_main{
-		width: 100%;
+		display: none;
+	}
+
+	.ezekielGatchalian{
+		padding-top: 20px;
 	}
 
 	.about_me{
+		padding-top: 0px;
 		width: 100%;
 	}
 
@@ -64,6 +95,14 @@
 @media screen and (min-width:981px) {
 
 	#header{
+		display: none;
+	}
+
+	.ezekielGatchalian{
+		display: none;
+	}
+
+	.projects_label{
 		display: none;
 	}
 

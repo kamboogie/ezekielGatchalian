@@ -24,11 +24,11 @@ a:link {
 }
 
 a:visited {
-    color: #fc5e5e; /* color for visited link */
+    color: #666666; /* color for visited link */
 }
 
 a:hover {
-    color: #666666; /* color for mouse over link */
+    color: #fc5e5e; /* color for mouse over link */
 }
 
 a:active {

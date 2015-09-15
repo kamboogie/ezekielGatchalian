@@ -80,7 +80,7 @@ img.image_header{
 	/*background-color: #e6e6e6;*/
 	min-height: 158px; /* 208 - 50 */ 
 	float: left;
-	text-align: center;
+	text-align: left;
 	padding-top: 50px; 
 	margin-right: 0.0987166%; /* 1 divided by 1013 */
 	width: 33.267522%; /* 337 divided by 1013 */
@@ -118,7 +118,7 @@ img.image_header{
 }
 
 li.lists{
-	width: 32.280355%; /* 337 327 divided by 1013 */
+	width: 32.280355%; /* 327 divided by 1013 */
 	min-height: 208px;
 }
 

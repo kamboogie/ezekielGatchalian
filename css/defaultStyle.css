@@ -19,6 +19,10 @@ img{
 	width: auto;
 }
 
+p{
+	color: #666666;
+}
+
 a:link {
     color: #666666; /* color for unvisited link */
 }
@@ -123,12 +127,6 @@ img.image_header{
 .projects_label{
 	color: #666666;
 	font-size: 1.50em; /* 11 divided by 16 (1em = 16px) */
-
-}
-
-.projects{
-	color: #FFFFFF;
-
 }
 
 .projects h3{
@@ -144,6 +142,7 @@ img.image_header{
 
 .project_description{
 	font-size: .750em; /* 12 divided by 16 (1em = 16px) */
+	color: #FFFFFF;
 }
 
 li.lists{
@@ -151,9 +150,17 @@ li.lists{
 	min-height: 208px;
 }
 
+.project_title1{
+		color: #FFFFFF;
+}
+
 .project_list1{
 	background-color: #61b1f2;
 	float: left;
+}
+
+.project_title2{
+	color: #FFFFFF;
 }
 
 .project_list2{
@@ -161,8 +168,10 @@ li.lists{
 	float: left;
 	margin-right: 1.579467%; /*1 divided by 1013*/
 	margin-left: 1.579467%; /*1 divided by 1013*/
-	/*margin-right: 0.098716%; /*1 divided by 1013*/
-	/*margin-left: 0.098716%; /*1 divided by 1013*/
+}
+
+.project_title3{
+	color: #FFFFFF;
 }
 
 .project_list3{

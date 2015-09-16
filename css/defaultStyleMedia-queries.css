@@ -22,16 +22,36 @@
 		width: 100%;
 	}
 
-	.project_list2{
-	background-color: #fc5e5e;
-	float: left;
-	margin-right: 0%; /*1 divided by 1013*/
-	margin-left: 0%; /*1 divided by 1013*/
-	/*margin-right: 0.098716%; /*1 divided by 1013*/
-	/*margin-left: 0.098716%; /*1 divided by 1013*/
+	.project_title1{
+		background-color: #61b1f2;
 	}
 
-	
+	.project_list1{
+	background-color: #FFFFFF;
+	}
+
+	.project_description {
+		color: #666666;
+	}
+
+	.project_title2{
+		background-color: #fc5e5e;
+	}
+
+	.project_list2{
+	background-color: #FFFFFF;
+	margin-right: 0%; 
+	margin-left: 0%; 
+	}
+
+	.project_title3{
+		background-color: #666666;
+	}
+
+	.project_list3{
+	background-color: #FFFFFF;
+	}
+
 }
 
 @media screen and (min-width:481px) and (max-width: 650px) {
@@ -53,13 +73,34 @@
 		width: 100%;
 	}
 
+	.project_title1{
+		background-color: #61b1f2;
+	}
+
+	.project_list1{
+	background-color: #FFFFFF;
+	}
+
+	.project_description {
+		color: #666666;
+	}
+
+	.project_title2{
+		background-color: #fc5e5e;
+	}
+
 	.project_list2{
-	background-color: #fc5e5e;
-	float: left;
-	margin-right: 0%; /*1 divided by 1013*/
-	margin-left: 0%; /*1 divided by 1013*/
-	/*margin-right: 0.098716%; /*1 divided by 1013*/
-	/*margin-left: 0.098716%; /*1 divided by 1013*/
+	background-color: #FFFFFF;
+	margin-right: 0%; 
+	margin-left: 0%; 
+	}
+
+	.project_title3{
+		background-color: #666666;
+	}
+
+	.project_list3{
+	background-color: #FFFFFF;
 	}
 	
 }
@@ -83,13 +124,34 @@
 		width: 100%;
 	}
 
+	.project_title1{
+		background-color: #61b1f2;
+	}
+
+	.project_list1{
+	background-color: #FFFFFF;
+	}
+
+	.project_description {
+		color: #666666;
+	}
+
+	.project_title2{
+		background-color: #fc5e5e;
+	}
+
 	.project_list2{
-	background-color: #fc5e5e;
-	float: left;
-	margin-right: 0%; /*1 divided by 1013*/
-	margin-left: 0%; /*1 divided by 1013*/
-	/*margin-right: 0.098716%; /*1 divided by 1013*/
-	/*margin-left: 0.098716%; /*1 divided by 1013*/
+	background-color: #FFFFFF;
+	margin-right: 0%; 
+	margin-left: 0%; 
+	}
+
+	.project_title3{
+		background-color: #666666;
+	}
+
+	.project_list3{
+	background-color: #FFFFFF;
 	}
 	
 }

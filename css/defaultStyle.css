@@ -99,7 +99,7 @@ img.image_header{
 
 .ezekielGatchalian{
 	color: #666666;
-	font-size: 1.50em; /* 11 divided by 16 (1em = 16px) */
+	font-size: 1.50em; /* 24 divided by 16 (1em = 16px) */
 }
 
 .logo_main{
@@ -107,7 +107,8 @@ img.image_header{
 	min-height: 158px; /* 208 - 50 */ 
 	float: left;
 	text-align: left;
-	padding-top: 20px; 
+	vertical-align: middle;
+	padding-top: 12px; 
 	padding-left: 2.961500%; /* 30 divided by 1013 */
 	width: 19.743336%; /* 337 divided by 1013 */
 }
@@ -115,7 +116,8 @@ img.image_header{
 .about_me{
 	min-height: 178px; /* 178 - 25 */
 	float: left;
-	padding-top: 25px; 
+	vertical-align: middle;
+	padding-top: 0px; 
 	width: 77.295162%; /* 783 divided by 1013 */
 }
 
@@ -126,11 +128,11 @@ img.image_header{
 
 .projects_label{
 	color: #666666;
-	font-size: 1.50em; /* 11 divided by 16 (1em = 16px) */
+	font-size: 1.50em; /* 24 divided by 16 (1em = 16px) */
 }
 
 .projects h3{
-	font-size: .875em; /* 14 divided by 16 (1em = 16px) */
+	font-size: 1.0em; /* (1em = 16px) */
 	padding-left: 8.928571%; /* 30 divided by 336*/
 	padding-right: 8.928571%; /* 30 divided by 336*/
 }
@@ -141,7 +143,7 @@ img.image_header{
 }
 
 .project_description{
-	font-size: .750em; /* 12 divided by 16 (1em = 16px) */
+	font-size: .875em; /* 14 divided by 16 (1em = 16px) */
 	color: #FFFFFF;
 }
 
